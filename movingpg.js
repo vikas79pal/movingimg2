@@ -50,7 +50,7 @@ if (currentImage==0){
 }
 
 
-leftbtn.addEventListener("mouseover",()=>{
+leftbtn.addEventListener("click",()=>{
     console.log("clicked on left btn",currentImage)
     if (currentImage > 0) {
         if (currentImage >= 0 && currentImage < listOfImageLinks.length ) {
@@ -94,7 +94,7 @@ else {
 
 
 
-rightbtn.addEventListener("mouseover",(e)=>{
+rightbtn.addEventListener("click",(e)=>{
     console.log("length of list",listOfImageLinks.length,currentImage)
     if (currentImage <= listOfImageLinks.length-2) {
         console.log("<8")
